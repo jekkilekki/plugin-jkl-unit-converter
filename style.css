@@ -1,4 +1,4 @@
-a:hover {
+/*a:hover {
     color: #fdb912;
 }
 
@@ -15,8 +15,8 @@ body {
 main {
     width: 520px;
     margin: 20% auto;
-}
-#notes {
+}*/
+/*#notes {
     display: none;
     margin-top: 20px;
     padding: 20px;
@@ -30,7 +30,7 @@ main {
     line-height: 1.5;
     font-style: italic;
     color: #777;
-}
+}*/
 #conversion-form h2 {
     font-weight: 600;
     margin-bottom: 15px;
@@ -94,7 +94,7 @@ main {
     margin-top: -4px;
 }
 #conversion-form select {
-    background: url(//ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow-up-down.png) 98% no-repeat whiteSmoke;
+    background: url(img/up-down-arrow.png) 98% no-repeat whiteSmoke;
     border: 1px solid gainsboro;
     font-size: 13px;
     line-height: 20px;
@@ -127,7 +127,7 @@ main {
             font-style: italic; 
             font-weight: 300; 
             font-size: 80%; 
-            font-family: 'Source Sans Pro', Arial, sans-serif; 
+            /*font-family: 'Source Sans Pro', Arial, sans-serif;*/ 
         }
         #convert_string:-moz-placeholder { 
             color: silver; 
@@ -135,7 +135,7 @@ main {
             font-style: italic; 
             font-weight: 300; 
             font-size: 80%; 
-            font-family: 'Source Sans Pro', Arial, sans-serif; 
+            /*font-family: 'Source Sans Pro', Arial, sans-serif;*/ 
         }
         #convert_string::-moz-placeholder { 
             color: silver; 
@@ -143,7 +143,7 @@ main {
             font-style: italic; 
             font-weight: 300; 
             font-size: 80%; 
-            font-family: 'Source Sans Pro', Arial, sans-serif; 
+            /*font-family: 'Source Sans Pro', Arial, sans-serif;*/ 
         }
         #convert_string:-ms-input-placeholder { 
             color: silver; 
@@ -151,7 +151,7 @@ main {
             font-style: italic; 
             font-weight: 300; 
             font-size: 80%; 
-            font-family: 'Source Sans Pro', Arial, sans-serif; 
+            /*font-family: 'Source Sans Pro', Arial, sans-serif;*/ 
         }
 #conversion-units {
     padding-top: 5px;

@@ -22,7 +22,7 @@
  */
 
 ini_set('display_errors', 1);
-require_once( 'inc/functions-5.5.php' );
+require_once( '../inc/functions-5.5.php' );
 
 $convert_this = 'length_and_distance';
 $convert_string = '';
