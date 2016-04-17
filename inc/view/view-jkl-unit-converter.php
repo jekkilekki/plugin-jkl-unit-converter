@@ -22,7 +22,7 @@
  */
 
 ini_set('display_errors', 1);
-require_once( '../inc/functions-5.5.php' );
+require_once( 'functions.php' );
 
 $convert_this = 'length_and_distance';
 $convert_string = '';
@@ -143,12 +143,12 @@ if( isset( $_POST[ 'submit' ] ) ) {
         ?>
         
         <form id="conversion-form" action="" method="POST">
-            <h2>Unit Converter</h2>
+            <h4>Unit Converter</h4>
             
             <ol id="list-options">
                 <li name="basic" value="0" class="convert-list-options <?= $list_choice == 'basic' ? ' active' : ''; ?>">Basic</li>
                 <li name="default" value="1" class="convert-list-options <?= $list_choice == 'default' ? ' active' : ''; ?>">Default</li>
-                <li name="advanced" value="2" class="convert-list-options <?= $list_choice == 'advanced' ? ' active' : ''; ?>">Advanced</li>
+                <!--<li name="advanced" value="2" class="convert-list-options <?= $list_choice == 'advanced' ? ' active' : ''; ?>">Advanced</li>-->
             </ol>
             <input type="hidden" id="remember_options" value="<?= $list_choice; ?>" name="remember_options">
             
@@ -168,8 +168,8 @@ if( isset( $_POST[ 'submit' ] ) ) {
             </div><!-- END #converions-type -->
             
             <div id="conversion-units">
-                <div class="entry">
-                    <p>From:</p>
+                <div class="entry from-div">
+                    From:
                     <input id="from_value" type="text" name="from_value" value="<?= $from_value; ?>">
                     <select name="from_unit[]">
 
@@ -179,9 +179,9 @@ if( isset( $_POST[ 'submit' ] ) ) {
                     <input type="hidden" id="from-units" value="<?= $from_unit_str; ?>">
                 </div>
                 <span id="equal-sign">=</span>
-                <div class="entry">
-                    <p>To:</p>
-                    <input id="to_value" type="text" name="to_value" value="<?= float_to_string( $to_value ); ?>">
+                <div class="entry to-div">
+                    To:
+                    <input id="to_value" type="text" name="to_value" value="<?= float_to_string( $to_value ); ?>" readonly>
                     <select name="to_unit[]">
 
                         <?php // Select options controlled by 'js/functions.js' ?>
@@ -191,13 +191,15 @@ if( isset( $_POST[ 'submit' ] ) ) {
                 </div>
             </div><!-- END #conversion-units -->
             
-            <div class="convert-list-options no-border">
-                <input id="show_all_units" name="show_all_units" type="checkbox" <?= $show_all_units; ?>>
-                <label for="show_all_units">Show ALL units</label>
-            </div>
-            
-            <div class="convert-list-options no-border right">
-                <input type="submit" name="submit" value="Convert">
+            <div class="controls">
+                <div class="convert-list-options no-border">
+                    <input id="show_all_units" name="show_all_units" type="checkbox" <?= $show_all_units; ?>>
+                    <label for="show_all_units">Show ALL units</label>
+                </div>
+
+                <div class="convert-list-options no-border right">
+                    <input type="submit" name="submit" value="Convert">
+                </div>
             </div>
             
         </form><!-- END #converion-form -->

@@ -126,11 +126,11 @@ if ( ! class_exists( 'JKL_Unit_Converter' ) ) {
          * @since   0.0.1
          */
         public function jkl_uc_scripts_styles() {
-            
+
             wp_enqueue_style( 'jkl-uc-style', plugins_url( '../style.css', __FILE__ ) );
-            wp_enqueue_script( 'jkl-list-choice', plugins_url( '../js/list-choice.js', __FILE__ ), array( '' ), '20160417', true );
-            wp_enqueue_script( 'jkl-list-units', plugins_url( '../js/list-units.js', __FILE__ ), array( '' ), '20160417', true );
-            wp_enqueue_script( 'jkl-uc-functions', plugins_url( '../js/functions.js', __FILE__ ), array( '' ), '20160417', true );
+            wp_enqueue_script( 'jkl-uc-functions', plugins_url( '../js/functions.js', __FILE__ ), array(), '20160417', true );
+            wp_enqueue_script( 'jkl-list-choice', plugins_url( '../js/list-choice.js', __FILE__ ), array(), '20160417', true );
+            wp_enqueue_script( 'jkl-list-units', plugins_url( '../js/list-units.js', __FILE__ ), array(), '20160417', true );
             
         }
         
