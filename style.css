@@ -1,0 +1,192 @@
+a:hover {
+    color: #fdb912;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body {
+    background: #efefef;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+main {
+    width: 520px;
+    margin: 20% auto;
+}
+#notes {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 0.9em;
+}
+#notes p {
+    margin-bottom: 10px;
+}
+#notes ol, ul {
+    margin-left: 24px;
+    line-height: 1.5;
+    font-style: italic;
+    color: #777;
+}
+#conversion-form h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#conversion-form p {
+    margin-bottom: 5px;
+}
+#conversion-form {
+    padding: 20px 20px 24px;
+    background: white;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+    width: 520px;
+    margin: 0 auto;
+}
+#conversion-form label {
+    cursor: pointer;
+}
+#list-options {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#show-input-option {
+    display: inline;
+/*    color: silver;*/
+}
+.convert-list-options {
+    display: inline;
+    padding: 5px 7px;
+    border: 1px solid #d9d9d9;
+    margin: 0px;
+    font-size: 0.8em;
+    color: silver;
+    cursor: pointer;
+    margin-left: -1px;
+    border-radius: 2px 2px 0 0;
+}
+.convert-list-options:first-child {
+    margin-left: 0;
+}
+.convert-list-options.active {
+    background: whitesmoke;
+/*    color: darkgray;*/
+    color: gray;
+}
+.convert-list-options.no-border {
+    color: gray;
+    border: 0;
+}
+.convert-list-options input {
+    margin-right: 5px;
+}
+#conversion-form input[type="submit"] {
+/*    display: none;*/
+    float: right;
+    margin-right: 40px;
+    padding: 7px 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    margin-top: -4px;
+}
+#conversion-form select {
+    background: url(//ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow-up-down.png) 98% no-repeat whiteSmoke;
+    border: 1px solid gainsboro;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 16px 5px 5px;
+    vertical-align: middle;
+    -webkit-appearance: button;
+    appearance: button;
+    margin-bottom: 10px;
+}
+#conversion-type select {
+    width: 440px;
+    border-radius: 0 0 2px 2px;
+    margin-top: -1px;
+    display: block;
+}
+#convert_string {
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    font-size: 120%;
+    height: 40px;
+    padding: 1px 6px;
+    border-radius: 2px 2px 0 0;
+    width: 440px;
+    display: none;
+    margin-top: -1px;
+}
+        #convert_string::-webkit-input-placeholder { 
+            color: silver; 
+            padding-top: 3px; 
+            font-style: italic; 
+            font-weight: 300; 
+            font-size: 80%; 
+            font-family: 'Source Sans Pro', Arial, sans-serif; 
+        }
+        #convert_string:-moz-placeholder { 
+            color: silver; 
+            padding-top: 3px; 
+            font-style: italic; 
+            font-weight: 300; 
+            font-size: 80%; 
+            font-family: 'Source Sans Pro', Arial, sans-serif; 
+        }
+        #convert_string::-moz-placeholder { 
+            color: silver; 
+            padding-top: 3px; 
+            font-style: italic; 
+            font-weight: 300; 
+            font-size: 80%; 
+            font-family: 'Source Sans Pro', Arial, sans-serif; 
+        }
+        #convert_string:-ms-input-placeholder { 
+            color: silver; 
+            padding-top: 3px; 
+            font-style: italic; 
+            font-weight: 300; 
+            font-size: 80%; 
+            font-family: 'Source Sans Pro', Arial, sans-serif; 
+        }
+#conversion-units {
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+#conversion-units .entry {
+    display: inline-block;
+    width: 200px;
+}
+#conversion-units .entry input {
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    font-size: 180%;
+    height: 40px;
+    padding: 1px 6px;
+    text-align: center;
+    border-radius: 2px 2px 0 0;
+    width: 200px;
+    display: block;
+}
+#conversion-units .entry select {
+    border-radius: 0 0 2px 2px;
+    margin-top: -1px;
+    display: block;
+    width: 200px;
+}
+#conversion-units #equal-sign {
+    display: inline-block;
+    line-height: 44px;
+    width: 42px;
+    text-align: center;
+    font-size: 26px;
+    color: #878787;
+    padding-top: 25px;
+    vertical-align: top;
+    margin-left: -4px;
+    margin-right: -4px;
+}
