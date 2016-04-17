@@ -7,7 +7,7 @@
  * @wordpress-plugin
  * Plugin Name: JKL Unit Converter
  * Plugin URI:  https://github.com/jekkilekki/plugin-jkl-unit-converter
- * Description: 
+ * Description: A simple Unit Converter widget that allows you to between various units. (Inspired by Google's Unit Converter.)
  * Version:     0.0.1
  * Author:      Aaron Snowberger
  * Author URI:  http://www.aaronsnowberger.com
