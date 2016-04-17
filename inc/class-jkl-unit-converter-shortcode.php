@@ -50,7 +50,7 @@ if ( ! class_exists( 'JKL_Unit_Converter_Shortcode' ) ) {
             // Prevent loading more than once per Page
             global $post;
             if( has_shortcode( $post->post_content, 'jkluc' ) ) {
-                include_once 'view/view-jkl-unit-converter.php';
+                include_once 'view-jkl-unit-converter.php';
             }
             
         }

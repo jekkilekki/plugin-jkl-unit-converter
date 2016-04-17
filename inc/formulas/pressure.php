@@ -7,6 +7,7 @@
  *
  * =================================================================================
  */
+global $pressure_to_pascal;
 $pressure_to_pascal = array(
     'atmospheres'               => 101325,
     //'barries'                   => ,

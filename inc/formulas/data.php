@@ -7,6 +7,7 @@
  *
  * =================================================================================
  */
+global $data_to_bytes;
 $data_to_bytes = array( // https://kb.iu.edu/d/ackw
     'bits'                      => 0.125,   
     'nibbles'                   => 0.5,   

@@ -60,17 +60,17 @@ if( isset( $_POST[ 'submit' ] ) ) {
     switch( $convert_this ) {
         case 'acceleration':        
                                     $to_value = convert_acceleration( $from_value, $from_unit, $to_unit ); break;
-        case 'angles': include_once( 'inc/formulas/angles.php' );              
+        case 'angles': include_once( 'formulas/angles.php' );              
                                     $to_value = convert_angle( $from_value, $from_unit, $to_unit ); break;
-        case 'area': include_once( 'inc/formulas/length-area-speed.php' );             
+        case 'area': include_once( 'formulas/length-area-speed.php' );             
                                     $to_value = convert_area( $from_value, $from_unit, $to_unit ); break;
         case 'currency':            
                                     $to_value = convert_currency( $from_value, $from_unit, $to_unit ); break;
-        case 'data_transfer_rate': include_once( 'inc/formulas/data.php' ); 
+        case 'data_transfer_rate': include_once( 'formulas/data.php' ); 
                                     $to_value = convert_data_speed( $from_value, $from_unit, $to_unit ); break;
         case 'density':             
                                     $to_value = convert_density( $from_value, $from_unit, $to_unit ); break;
-        case 'digital_storage': include_once( 'inc/formulas/data.php' );
+        case 'digital_storage': include_once( 'formulas/data.php' );
                                     $to_value = convert_data( $from_value, $from_unit, $to_unit ); break;
         case 'electric_capacitance':
                                     $to_value = convert_electric_cap( $from_value, $from_unit, $to_unit ); break;
@@ -80,41 +80,41 @@ if( isset( $_POST[ 'submit' ] ) ) {
                                     $to_value = convert_electric_cond( $from_value, $from_unit, $to_unit ); break;
         case 'electric_current':    
                                     $to_value = convert_electric_curr( $from_value, $from_unit, $to_unit ); break;
-        case 'energy': include_once( 'inc/formulas/energy.php' );             
+        case 'energy': include_once( 'formulas/energy.php' );             
                                     $to_value = convert_energy( $from_value, $from_unit, $to_unit ); break;
         case 'flow_rate':           
                                     $to_value = convert_flow( $from_value, $from_unit, $to_unit ); break;
         case 'force':               
                                     $to_value = convert_force( $from_value, $from_unit, $to_unit ); break;
-        case 'frequency': include_once( 'inc/formulas/frequency.php' );           
+        case 'frequency': include_once( 'formulas/frequency.php' );           
                                     $to_value = convert_frequency( $from_value, $from_unit, $to_unit ); break;
-        case 'fuel_economy': include_once( 'inc/formulas/fuel-economy.php' );       
+        case 'fuel_economy': include_once( 'formulas/fuel-economy.php' );       
                                     $to_value = convert_fuel_economy( $from_value, $from_unit, $to_unit ); break;
         case 'inductance':          
                                     $to_value = convert_inductance( $from_value, $from_unit, $to_unit ); break;
-        case 'length_and_distance': include_once( 'inc/formulas/length-area-speed.php' );
+        case 'length_and_distance': include_once( 'formulas/length-area-speed.php' );
                                     $to_value = convert_length( $from_value, $from_unit, $to_unit ); break;
         case 'light_intensity':     
                                     $to_value = convert_light( $from_value, $from_unit, $to_unit ); break;
         case 'magnetic_flux':       
                                     $to_value = convert_magnetic( $from_value, $from_unit, $to_unit ); break;
-        case 'mass_and_weight': include_once( 'inc/formulas/mass.php' );
+        case 'mass_and_weight': include_once( 'formulas/mass.php' );
                                     $to_value = convert_mass( $from_value, $from_unit, $to_unit ); break;
         case 'misc':                
                                     $to_value = convert_misc( $from_value, $from_unit, $to_unit ); break;
         case 'power':               
                                     $to_value = convert_power( $from_value, $from_unit, $to_unit ); break;
-        case 'pressure': include_once( 'inc/formulas/pressure.php' );           
+        case 'pressure': include_once( 'formulas/pressure.php' );           
                                     $to_value = convert_pressure( $from_value, $from_unit, $to_unit ); break;
         case 'radiation_dosage':    
                                     $to_value = convert_radiation( $from_value, $from_unit, $to_unit ); break;
         case 'radioactivity':       
                                     $to_value = convert_radioactivity( $from_value, $from_unit, $to_unit ); break;
-        case 'speed': include_once( 'inc/formulas/length-area-speed.php' );              
+        case 'speed': include_once( 'formulas/length-area-speed.php' );              
                                     $to_value = convert_speed( $from_value, $from_unit, $to_unit ); break;
-        case 'temperature': include_once( 'inc/formulas/temperature.php' );        
+        case 'temperature': include_once( 'formulas/temperature.php' );        
                                     $to_value = convert_temperature( $from_value, $from_unit, $to_unit ); break;
-        case 'time': include_once( 'inc/formulas/time.php' );               
+        case 'time': include_once( 'formulas/time.php' );               
                                     $to_value = convert_time( $from_value, $from_unit, $to_unit ); break;
         case 'torque':              
                                     $to_value = convert_torque( $from_value, $from_unit, $to_unit ); break;
@@ -122,7 +122,7 @@ if( isset( $_POST[ 'submit' ] ) ) {
                                     $to_value = convert_unitless( $from_value, $from_unit, $to_unit ); break;
         case 'voltage':             
                                     $to_value = convert_voltage( $from_value, $from_unit, $to_unit ); break;
-        case 'volume': include_once( 'inc/formulas/volume.php' );             
+        case 'volume': include_once( 'formulas/volume.php' );             
                                     $to_value = convert_volume( $from_value, $from_unit, $to_unit ); break;
         default:
             $to_value = 'Unsupported conversion type.';

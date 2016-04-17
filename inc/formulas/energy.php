@@ -7,6 +7,7 @@
  *
  * =================================================================================
  */
+global $energy_to_joule;
 $energy_to_joule = array(
     'joules'                    => 1,
     'kilojoules'                => 1000,

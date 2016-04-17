@@ -7,6 +7,7 @@
  *
  * =================================================================================
  */
+global $time_to_seconds;
 $time_to_seconds = array(
     'nanoseconds'           => 0.000000001,
     'microseconds'          => 0.000001,
