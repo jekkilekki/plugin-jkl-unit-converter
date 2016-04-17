@@ -143,29 +143,29 @@ if( isset( $_POST[ 'submit' ] ) ) {
         ?>
         
         <form id="conversion-form" action="" method="POST">
-            <h4>Unit Converter</h4>
+            <h4><?php _e( 'Unit Converter', 'jkl-unit-converter' ); ?></h4>
             
             <ol id="list-options">
-                <li name="basic" value="0" class="convert-list-options <?= $list_choice == 'basic' ? ' active' : ''; ?>">Basic</li>
-                <li name="default" value="1" class="convert-list-options <?= $list_choice == 'default' ? ' active' : ''; ?>">Default</li>
-                <!--<li name="advanced" value="2" class="convert-list-options <?= $list_choice == 'advanced' ? ' active' : ''; ?>">Advanced</li>-->
+                <li name="basic" value="0" class="convert-list-options <?= $list_choice == 'basic' ? ' active' : ''; ?>"><?php _e( 'Basic', 'jkl-unit-converter' ); ?></li>
+                <li name="default" value="1" class="convert-list-options <?= $list_choice == 'default' ? ' active' : ''; ?>"><?php _e( 'Default', 'jkl-unit-converter' ); ?></li>
+                <!--<li name="advanced" value="2" class="convert-list-options <?= $list_choice == 'advanced' ? ' active' : ''; ?>"><?php // _e( 'Advanced', 'jkl-unit-converter' ); ?></li>-->
             </ol>
             <input type="hidden" id="remember_options" value="<?= $list_choice; ?>" name="remember_options">
             
             <div id="show-input-option" class="convert-list-options no-border">
                 <input type="checkbox" name="show_str_input" id="show_str_input" <?= $show_str_input; ?>>
-                <label for="show_str_input">Show input field</label>
+                <label for="show_str_input"><?php _e( 'Show input field', 'jkl-unit-converter' ); ?></label>
             </div>
             
             <div id="conversion-type">
-                <input type="text" id="convert_string" name="convert_string" value="<?= $convert_string; ?>" placeholder="Format: X [units] to [units]">
+                <input type="text" id="convert_string" name="convert_string" value="<?= $convert_string; ?>" placeholder="<?php _e( 'Format: X [units] to [units]', 'jkl-unit-converter' ); ?>">
                 <select name="conversion_type[]">
                     
                     <?php // Select options controlled by 'js/list-choice.js' ?>
                     
                 </select>
                 <input type="hidden" id="selected_list" value="<?= $convert_this; ?>">
-            </div><!-- END #converions-type -->
+            </div><!-- END #conversion-type -->
             
             <div id="conversion-units">
                 <div class="entry from-div">
@@ -178,7 +178,7 @@ if( isset( $_POST[ 'submit' ] ) ) {
                     </select>
                     <input type="hidden" id="from-units" value="<?= $from_unit_str; ?>">
                 </div>
-                <span id="equal-sign">=</span>
+                <span id="equal-sign"><?php _e( '=', 'jkl-unit-converter' ); ?></span>
                 <div class="entry to-div">
                     To:
                     <input id="to_value" type="text" name="to_value" value="<?= float_to_string( $to_value ); ?>" readonly>
@@ -194,11 +194,11 @@ if( isset( $_POST[ 'submit' ] ) ) {
             <div class="controls">
                 <div class="convert-list-options no-border">
                     <input id="show_all_units" name="show_all_units" type="checkbox" <?= $show_all_units; ?>>
-                    <label for="show_all_units">Show ALL units</label>
+                    <label for="show_all_units"><?php _e( 'Show ALL units', 'jkl-unit-converter' ); ?></label>
                 </div>
 
                 <div class="convert-list-options no-border right">
-                    <input type="submit" name="submit" value="Convert">
+                    <input type="submit" name="submit" value="<?php _e( 'Convert', 'jkl-unit-converter' ); ?>">
                 </div>
             </div>
             
