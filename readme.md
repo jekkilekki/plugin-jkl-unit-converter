@@ -100,7 +100,11 @@ Full documentation of the Plugin and its uses can (currently) be found at its
 
 1. Unit Converter loaded in a Page via the shortcode
 
+![screenshot-1](https://cloud.githubusercontent.com/assets/6644259/14622197/25a49ee2-0603-11e6-8f73-1d65bde8bb71.png)
+
 2. Unit Converter Widget
+
+![screenshot-2](https://cloud.githubusercontent.com/assets/6644259/14622199/2812e4c2-0603-11e6-9310-510dec80ce37.png)
 
 ##Acknowledgements
 
