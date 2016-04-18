@@ -286,13 +286,13 @@ main {
     #conversion-form #equal-sign {
         display: none;
     }
-            .post #conversion-units .from-div,
-            .post #conversion-units .to-div {
+            .singular #conversion-units .from-div,
+            .singular #conversion-units .to-div {
                 float: none;
                 width: 100%;
                 margin: 0;
             }
-            .post #conversion-units .from-div {
+            .singular #conversion-units .from-div {
                 /*margin-bottom: 1em;*/
             }
 }
