@@ -129,7 +129,7 @@ if ( ! class_exists( 'JKL_Unit_Converter' ) ) {
 
             // Selectively load styles and scripts only when the widget or shortcode are active on a page
             global $post;
-            if( is_active_widget( 'jkl_unit_converter_widget' ) || has_shortcode( $post->post_content, 'jkluc' ) ) {
+            if( is_active_widget( false, false, 'jkl_unit_converter_widget' ) || has_shortcode( $post->post_content, 'jkluc' ) ) {
                 
                 wp_enqueue_style( 'jkl-uc-style', plugins_url( '../style.css', __FILE__ ) );
                 wp_enqueue_script( 'jkl-uc-functions', plugins_url( '../js/functions.js', __FILE__ ), array(), '20160417', true );

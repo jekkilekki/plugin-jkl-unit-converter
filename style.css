@@ -64,6 +64,7 @@ main {
 }
 #conversion-form #list-options li {
     /*border-bottom: 0;*/
+    background: white;
 }
 #conversion-form #show-input-option {
     /*display: inline;*/
@@ -93,6 +94,10 @@ main {
     color: gray;
     border: 0;
 }
+#conversion-form .convert-list-options.right {
+    float: right;
+    font-size: 0.9em;
+}
 #conversion-form .convert-list-options input {
     margin-right: 5px;
     margin-bottom: 0;
@@ -103,7 +108,7 @@ main {
     margin-right: 0px;
     line-height: 20px;
     padding: 5px 20px;
-    background: transparent;
+    background: white;
     outline: none;
     border: 1px solid #d9d9d9;
     border-radius: 5px;
@@ -249,7 +254,7 @@ main {
  */
 .jkl_unit_converter_widget #conversion-form {
     box-shadow: none;
-    badkground: transparent;
+    background: transparent;
     padding: 0;
 }
 .jkl_unit_converter_widget #conversion-form h4,

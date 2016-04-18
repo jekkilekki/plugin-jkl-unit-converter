@@ -46,10 +46,10 @@ require_once( 'functions-5.5.php' );
 $convert_this = 'length_and_distance';  // Unit type select dropdown
 $list_choice = 'default';               // List button choice
 $show_all_units = '';                   // Checkbox to show ALL units
-/* Possible later feature
+/* Possible later feature */
 $show_str_input = '';                   // Checkbox to show string input
 $convert_string = '';                   // String to convert ( X [units] to [units] )
-*/
+
 
 // Set defaults units and values
 $from_value = '';                       // From X (value)
