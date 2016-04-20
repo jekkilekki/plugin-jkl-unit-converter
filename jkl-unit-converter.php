@@ -8,10 +8,11 @@
  * Plugin Name: JKL Unit Converter
  * Plugin URI:  https://github.com/jekkilekki/plugin-jkl-unit-converter
  * Description: A simple Unit Converter widget that allows you to between various units. (Inspired by Google's Unit Converter.)
- * Version:     0.0.1
+ * Version:     1.0.0
  * Author:      Aaron Snowberger
  * Author URI:  http://www.aaronsnowberger.com
  * Text Domain: jkl-unit-converter
+ * Domain Path: /languages/
  * License:     GPL2
  * 
  * Requires at least: 3.5
