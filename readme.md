@@ -1,3 +1,5 @@
+![banner-772x250-text](https://cloud.githubusercontent.com/assets/6644259/14692630/73e93c7a-0793-11e6-8c24-16853779d739.png)
+
 #JKL Unit Converter
 
 * [Plugin Page](https://github.com/jekkilekki/plugin-jkl-unit-converter)
