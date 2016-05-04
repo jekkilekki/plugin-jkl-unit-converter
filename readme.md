@@ -2,6 +2,8 @@
 
 #JKL Unit Converter
 
+`Version 1.0.1`
+
 * [Plugin Page](https://github.com/jekkilekki/plugin-jkl-unit-converter)
 * [Author Page](http://www.aaronsnowberger.com/)
 
