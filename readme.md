@@ -139,6 +139,11 @@ Floor, Boston, MA 02110-1301 USA
 
 ##Changelog
 
+###1.0.1
+
+* Added `[jkl-unit-converter]` as a possible shortcode
+* Updated Readme files to show Usage (also the `[jkluc]` shortcode)
+
 ###1.0
 
 * Initial release
