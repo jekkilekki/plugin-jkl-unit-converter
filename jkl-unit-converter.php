@@ -8,7 +8,7 @@
  * Plugin Name: JKL Unit Converter
  * Plugin URI:  https://github.com/jekkilekki/plugin-jkl-unit-converter
  * Description: A simple Unit Converter widget that allows you to between various units. (Inspired by Google's Unit Converter.)
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Aaron Snowberger
  * Author URI:  http://www.aaronsnowberger.com
  * Text Domain: jkl-unit-converter
@@ -71,7 +71,7 @@ require_once plugin_dir_path( __FILE__ ) . 'inc/class-jkl-unit-converter-shortco
  */
 function run_unitconverter() {
     // Instantiate the plugin class
-    $JKL_Unit_Converter = new JKL_Unit_Converter( 'jkl-unit-converter', '0.0.1' );
+    $JKL_Unit_Converter = new JKL_Unit_Converter( 'jkl-unit-converter', '1.0.1' );
 }
 
 run_unitconverter();
