@@ -8,8 +8,8 @@ Donate link:            https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&host
 Tags:                   content, custom, shortcode, widget, units, measurements, temperature, length, distance, volume, weight, mass, area, speed, calculator, converter
 Requires at least:      3.5
 Tested up to:           4.5
-Stable tag:             1.0.0
-Version:                1.0.0
+Stable tag:             1.0.1
+Version:                1.0.1
 License:                GPLv2 or later
 License URI:            http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -175,7 +175,7 @@ to let me know the specific features or problems you're having.
 = Acknowledgements = 
 This plugin uses:
 
-* A similar list of units as those [on the Google website](https://support.google.com/websearch/answer/3284611?hl=en-KR#unitconverter) 
+* A similar list of units as those [on the Google website](https://support.google.com/websearch/answer/3284611?hl=en-KR#unitconverter)
 
 = License = 
 This program is free software; you can redistribute it and/or modify it under the terms 
@@ -191,6 +191,10 @@ program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fi
 Floor, Boston, MA 02110-1301 USA
 
 == Changelog ==
+
+= 1.0.1 = 
+* Added `[jkl-unit-converter]` as a possible shortcode
+* Updated Readme files to show Usage (also the `[jkluc]` shortcode)
 
 = 1.0 =
 * Initial release
