@@ -37,6 +37,11 @@ of measurement).
 
 Requires WordPress 3.5 and PHP 5.4 or later.
 
+= Usage = 
+Use the shortcode `[jkluc]` or `[jkl-unit-converter]` in your Page or Post. This will 
+insert the converter at the TOP of the content. Also, only ONE instance of the shortcode 
+will run per page. (See "Upcoming Features" section for possible updates to allow more options.)
+
 = Special Features = 
 * Provides varying levels of complexity for conversion lists (Basic - 6 types, 
 Default - 14 types)
@@ -52,12 +57,15 @@ refresh)
 will display only ONE form
 * On Posts/Pages with a shortcode, the widget will be disabled
 
-= Planned Upcoming Features = 
+= Upcoming Features = 
 * AJAX form submission to prevent page reload
 * An Advanced List of conversion formulas - 32 types
 * More conversion units supported
-* Possibly allow users to select whether or not to display multiple forms in shortcodes
-and/or widgets 
+* User selection options:
+  * Ability to place the shortcode at desired point IN the content
+  * Ability to enable multiple converters per page
+  * Ability to set the default units or conversion functions
+  * Ability to disable other conversion functions or buttons (only allow the desired ones)
 
 = Translations = 
 * English (EN) - default
