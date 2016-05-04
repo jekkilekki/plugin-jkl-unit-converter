@@ -34,6 +34,7 @@ if ( ! class_exists( 'JKL_Unit_Converter_Shortcode' ) ) {
          */
         protected function register() {
             add_shortcode( 'jkluc', array( $this, 'jkl_unit_converter_make_shortcode' ) );
+            add_shortcode( 'jkl-unit-converter', array( $this, 'jkl_unit_converter_make_shortcode' ) );
         }
         
         /**
@@ -49,7 +50,7 @@ if ( ! class_exists( 'JKL_Unit_Converter_Shortcode' ) ) {
             
             // Prevent loading more than once per Page
             global $post;
-            if( has_shortcode( $post->post_content, 'jkluc' ) ) {
+            if( has_shortcode( $post->post_content, 'jkluc' ) || has_shortcode( $post->post_content, 'jkl-unit-converter' ) ) {
                 include_once 'view-jkl-unit-converter.php';
             }
             
