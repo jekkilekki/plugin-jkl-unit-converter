@@ -61,6 +61,7 @@ main {
 #conversion-form #list-options {
     margin: 0 0 2px 0;
     display: inline-block;
+    z-index: 0;
 }
 #conversion-form #list-options li {
     /*border-bottom: 0;*/
@@ -70,6 +71,10 @@ main {
     /*display: inline;*/
     display: none;
 /*    color: silver;*/
+}
+#conversion-form #conversion-type {
+    position: relative;
+    z-index: 1;
 }
 #conversion-form .convert-list-options {
     display: inline;
